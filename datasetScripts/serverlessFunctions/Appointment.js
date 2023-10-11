@@ -11,7 +11,7 @@ exports = async function(request, response) {
   const limit={};
   let tot = true;
   let dynamicPageSize = null;
-  const URL = 'https://fakeurl.com/endpoint/Appointment'//put your http endpoint URL here
+  const URL = 'https://fakeurl.com/endpoint/appointment'//put your http endpoint URL here
 
   const FieldMap = {
     'actor': 'participant.actor.reference',
